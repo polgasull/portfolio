@@ -1,0 +1,16 @@
+ @import "bulma";
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+
+ @import 'abstracts/variables';
+
+ @import 'base/functions';
+
+ @import 'layout/header',
+         'layout/footer';
+
+ @import 'components/claim';
+
+ @import "pages/home";
+ @import "pages/projects";
+ @import "pages/contact";

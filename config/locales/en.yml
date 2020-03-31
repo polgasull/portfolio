@@ -1,0 +1,15 @@
+en:
+  hello: "Hello world"
+  titles:
+    about_us: "About us"
+    projects: "Proejcts"
+    contact_us: "Contact"
+  home_h1: "Welcome"
+  home_subtitle: "Subtitle!"
+  feature_1: "Daily updated"
+  feature_1_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum lectus ut ultrices venenatis. In sodales elit tempor nunc ullamcorper posuere"
+  feature_2: "Best companies"
+  feature_2_text: "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur in tortor id sodales."
+  feature_3: "No login needed"
+  feature_3_text: "Fusce malesuada massa nibh, a condimentum sem aliquam eget. Nunc id tellus quam. Fusce pretium est ac odio porta tincidunt. Nunc imperdiet scelerisque lorem."
+  

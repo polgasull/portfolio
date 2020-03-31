@@ -1,0 +1,56 @@
+.claim {
+	color: $black;
+  
+  &.is-fullheight {
+    height: 90vh !important;
+    min-height: 90vh !important;  
+
+    &.hero-body {
+      padding: 10rem 0rem;
+    }
+  }
+
+  &.is-medium {
+    height: 50vh !important;
+    min-height: 50vh !important;  
+
+    &.hero-body {
+      padding: 10rem 0rem;
+    }
+  }
+
+  &.is-little {
+    height: 35vh !important;
+    min-height: 35vh !important;  
+  }
+
+	.hero-body {
+    position: relative;
+  }
+}
+
+@media (max-width: 500px) {
+
+	.claim.is-mb-bg {
+    height: 100vh;
+		background-position: -460px 0px !important;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.claim {
+
+		.column {
+			padding-left: 15px;
+    	padding-right: 15px;
+		}
+	}
+}
+
+@media(max-width: 768px) {
+
+  .hero-body {
+		padding: 10rem 1.5rem;
+  }
+}
