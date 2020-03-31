@@ -1,12 +1,10 @@
 .claim {
 	color: $black;
-  
-  &.is-fullheight {
-    height: 90vh !important;
-    min-height: 90vh !important;  
 
-    &.hero-body {
-      padding: 10rem 0rem;
+  &.is-fullheight { 
+
+    .hero-body {
+			padding-bottom: 18rem;
     }
   }
 
@@ -14,7 +12,7 @@
     height: 50vh !important;
     min-height: 50vh !important;  
 
-    &.hero-body {
+    .hero-body {
       padding: 10rem 0rem;
     }
   }
@@ -52,5 +50,14 @@
 
   .hero-body {
 		padding: 10rem 1.5rem;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(1.5);
   }
 }

@@ -13,24 +13,24 @@
   <div class="container">
 		<div class="columns">
 			<article class="column is-3 has-text-centered">
-				<img src="<%=asset_path('maintenance.svg')%>" width="210" height="210" class="is-blank is-mobile-img" alt="Ofertas de empleo actualizadas diariamente | JobHub">
-				<div class="content has-text-left-mobile">
+				<img src="<%=asset_path('code.svg')%>" width="150" height="150" alt="">
+				<div class="content has-text-left-mobile mt4">
 					<h3><%=t('feature_1')%></h3>
 					<p><%=t('feature_1_text')%></p>
 				</div>
 			</article>
 			<div class="column"></div>
 			<article class="column is-3 has-text-centered">
-				<img src="<%=asset_path('professional.svg')%>" width="210" height="210" class="is-blank" alt="Las mejores empresas | JobHub">
-				<div class="content has-text-left-mobile">
+				<img src="<%=asset_path('professional.svg')%>" width="150" height="150" alt="">
+				<div class="content has-text-left-mobile mt4">
 					<h3><%=t('feature_2')%></h3>
 					<p><%=t('feature_2_text')%></p>
 				</div>
 			</article>
 			<div class="column"></div>
 			<article class="column is-3 has-text-centered">
-				<img src="<%=asset_path('customized.svg')%>" width="210" height="210" class="is-blank" alt="Sin registros | JobHub">
-				<div class="content has-text-left-mobile">
+				<img src="<%=asset_path('customized.svg')%>" width="150" height="150" alt="">
+				<div class="content has-text-left-mobile mt4">
 					<h3><%=t('feature_3')%></h3>
 					<p><%=t('feature_3_text')%></p>
 				</div>
@@ -41,52 +41,63 @@
 
 <section class="section projects">
   <div class="container">
-    <h1 class="title">Section</h1>
+    <h1 class="title"><%= t('titles.projects') %></h1>
     <h2 class="subtitle">
       A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
     </h2>
   </div>
 </section>
 
-<section class="hero is-fullheight">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <div class="columns is-8 is-variable ">
-        <div class="column is-two-thirds has-text-left">
-          <h1 class="title"> <%= t('titles.contact_us') %> </h1>
-          <p class="is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi soluta
-            voluptate facere molestiae consequatur.</p>
-          <div class="social-media mt3">
-            <a href="https://www.linkedin.com/in/pol-gasull-navarro/" target="_blank" class="button is-light is-large mr2">
-              <%= icon('fab', 'linkedin') %>
-            </a>
-            <a href="https://github.com/polgasull" target="_blank" class="button is-light is-large">
-              <%= icon('fab', 'github') %>
-            </a>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">Auto</div>
+      <div class="column is-two-fifths has-text-centered">
+        <img src="<%=asset_path('my_image.png')%>" width="250" height="250" alt="">
+        <p> Pol Gasull </p>
+        <p> Web developer </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container has-text-centered">
+    <div class="columns is-8 is-variable ">
+      <div class="column is-two-thirds has-text-left">
+        <h1 class="title"> <%= t('titles.contact_us') %> </h1>
+        <p class="is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi soluta
+          voluptate facere molestiae consequatur.</p>
+        <div class="social-media mt3">
+          <a href="https://www.linkedin.com/in/pol-gasull-navarro/" target="_blank" class="button is-light is-large mr2">
+            <%= icon('fab', 'linkedin') %>
+          </a>
+          <a href="https://github.com/polgasull" target="_blank" class="button is-light is-large">
+            <%= icon('fab', 'github') %>
+          </a>
+        </div>
+      </div>
+      <div class="column is-one-third has-text-left">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input is-medium" type="text">
           </div>
         </div>
-        <div class="column is-one-third has-text-left">
-          <div class="field">
-            <label class="label">Name</label>
-            <div class="control">
-              <input class="input is-medium" type="text">
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control">
-              <input class="input is-medium" type="text">
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Message</label>
-            <div class="control">
-              <textarea class="textarea is-medium"></textarea>
-            </div>
-          </div>
+        <div class="field">
+          <label class="label">Email</label>
           <div class="control">
-            <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+            <input class="input is-medium" type="text">
           </div>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea is-medium"></textarea>
+          </div>
+        </div>
+        <div class="control">
+          <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
         </div>
       </div>
     </div>
