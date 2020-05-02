@@ -1,9 +1,10 @@
 es:
   hello: "Hola mundo"
   titles:
-    about_us: "Sobre nosotros"
+    my_story: "Mi historia"
     projects: "Proyectos"
     contact_us: "Contacto"
+    tech_stack: "Stack tecnológico"
   home_h1: "Proyectos < web /> a medida"
   home_subtitle: "Da el salto al mundo digital."
   feature_1: "Tecnologías actuales"
