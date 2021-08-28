@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: "apikey",
     // eslint-disable-next-line max-len
-    pass: process.env.SENDGRID_API_KEY,
+    pass: process.env.VUE_APP_SENDGRID_API_KEY,
   },
 });
 
