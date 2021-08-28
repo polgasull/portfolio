@@ -3,7 +3,7 @@
     <b-container>
       <h2> Servicios </h2>
       <b-row class="mt-5">
-        <b-col>
+        <b-col md>
           <img src="@/assets/images/web_landing.svg" width="200" class="service-img" />
           <div class="mt-5">
             <h4>Web Profesional</h4>
@@ -12,7 +12,7 @@
             </p>
           </div>
         </b-col>
-        <b-col>
+        <b-col md>
           <img src="@/assets/images/web_professional.svg" width="200" class="service-img" />
           <div class="mt-5">
             <h4>Web E-Commerce</h4>
@@ -21,7 +21,7 @@
             </p>          
           </div>
         </b-col>
-        <b-col>
+        <b-col md>
           <img src="@/assets/images/web_custom.svg" width="200" class="service-img"  />
           <div class="mt-5">
             <h4>Web Customizada</h4>
@@ -47,7 +47,7 @@ export default {
     padding-bottom: 10rem;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 768px) {
     .service-img {
       width: 150px;
     }

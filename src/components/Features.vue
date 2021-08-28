@@ -46,7 +46,11 @@ export default {
     margin-bottom: 2rem;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 768px) {
+    .features {
+      text-align: center;
+    }
+
     .feature-img {
       width: 250px;
       margin-bottom: 4rem;
