@@ -34,7 +34,7 @@ exports.sendEmail = functions.https.onRequest((request, response) => {
   const mailOptions = {
     from: "Pol Gasull <pgasulln@gmail.com>",
     to: "pgasulln@gmail.com",
-    subject: `Nuevo mensaje: ${subject}`,
+    subject: `Proyectos web: ${subject}`,
     html: `Nombre: ${name} <br><br> Phone: ${phone} <br><br> ${message} <br><br> From ${emailFrom}`,
   };
 
