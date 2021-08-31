@@ -10,9 +10,9 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // upgrade later with STARTTLS
   auth: {
-    user: process.env.VUE_APP_SENDGRID_USERNAME,
+    user: functions.config().sendgrid.username,
     // eslint-disable-next-line max-len
-    pass: process.env.VUE_APP_SENDGRID_API_KEY,
+    pass: functions.config().sendgrid.key,
   },
 });
 
