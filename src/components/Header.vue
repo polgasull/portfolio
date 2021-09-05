@@ -6,12 +6,12 @@
     </video>
     <header class="header">
       <b-container>
-        <div class="heading">
-          Proyectos web a medida
-        </div>
-        <div class="sub-heading mb-3">
+        <h1 class="heading">
+          Desarrollo de páginas web a medida
+        </h1>
+        <h2 class="sub-heading mb-3">
           Impulsa tu negocio o marca personal
-        </div>
+        </h2>
         <div class="sub-heading">
           <b-button variant="primary" href="#contact"> ¿Hablamos? </b-button>
         </div>
@@ -51,6 +51,7 @@ export default {
 
   .sub-heading {
     font-size: 1.5rem;
+    font-weight: 400;
   }
 
   @media (max-width: 778px) {

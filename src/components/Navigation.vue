@@ -2,7 +2,8 @@
   <div>
     <b-navbar type="light" variant="faded" :class="{'nav-bg': scrollPosition > 100 }">
       <b-container>
-        <b-navbar-brand tag="h1" class="mb-0">polgasull</b-navbar-brand>
+        <b-navbar-brand href="#home" class="mb-0 is-desktop"> Pol Gasull - Desarrollador web </b-navbar-brand>
+        <b-navbar-brand href="#home" class="mb-0 is-mobile"> Pol Gasull </b-navbar-brand>
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="#projects">Proyectos</b-nav-item>
           <b-nav-item href="#contact">Contacto</b-nav-item>
@@ -47,5 +48,25 @@ export default {
 
   .nav-bg {
     background-color: white;
+  }
+
+  @media (max-width: 778px) {
+    .is-desktop {
+      display: none;
+    }
+
+    .is-mobile {
+      display: block;
+    }
+  }
+
+  @media (min-width: 779px) {
+    .is-desktop {
+      display: block;
+    }
+
+    .is-mobile {
+      display: none;
+    }
   }
 </style>
